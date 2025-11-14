@@ -1,0 +1,10 @@
+# 0.1 – Criar projeto
+npm create vite@latest sync-link-frontend -- --template react-ts
+cd sync-link-frontend
+
+# 0.2 – Instalar libs
+npm install axios react-router-dom
+npm install zustand              # opcional, se quiser store global simples
+npm install tailwindcss postcss autoprefixer -D
+npx tailwindcss init -p
+npm install -D @tailwindcss/postcss

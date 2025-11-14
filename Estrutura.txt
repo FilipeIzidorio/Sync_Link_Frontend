@@ -1,0 +1,80 @@
+synclink-frontend/
+│
+├── index.html
+├── vite.config.ts
+├── tsconfig.json
+├── tsconfig.node.json
+├── tailwind.config.js
+├── postcss.config.cjs
+│
+└── src/
+    ├── main.tsx
+    ├── App.tsx
+    ├── index.css
+    │
+    ├── api/
+    │   ├── api.ts
+    │   ├── authApi.ts
+    │   ├── usuarioApi.ts
+    │   ├── mesaApi.ts
+    │   ├── comandaApi.ts
+    │   ├── pedidoApi.ts
+    │   ├── cozinhaApi.ts
+    │   ├── produtoApi.ts
+    │   ├── categoriaApi.ts
+    │   ├── pagamentoApi.ts
+    │   ├── estoqueApi.ts
+    │   └── relatorioApi.ts
+    │
+    ├── auth/
+    │   ├── AuthContext.tsx
+    │   ├── PrivateRoute.tsx
+    │   └── useAuth.ts
+    │
+    ├── routes/
+    │   └── AppRoutes.tsx
+    │
+    ├── components/
+    │   ├── layout/
+    │   │   ├── MainLayout.tsx
+    │   │   ├── Sidebar.tsx
+    │   │   └── Topbar.tsx
+    │   │
+    │   ├── ui/
+    │   │   ├── Button.tsx
+    │   │   ├── Input.tsx
+    │   │   ├── Select.tsx
+    │   │   ├── Modal.tsx
+    │   │   ├── Card.tsx
+    │   │   ├── Badge.tsx
+    │   │   ├── Toast.tsx
+    │   │   └── ToastContainer.tsx
+    │   │
+    │   └── common/
+    │       ├── DataTable.tsx
+    │       └── ConfirmDialog.tsx
+    │
+    ├── pages/
+    │   ├── LoginPage.tsx
+    │   ├── DashboardPage.tsx
+    │   ├── MesasPage.tsx
+    │   ├── ComandasPage.tsx
+    │   ├── ProdutosPage.tsx
+    │   ├── CategoriasPage.tsx
+    │   ├── PedidosPage.tsx
+    │   ├── CozinhaPage.tsx
+    │   ├── CaixaPage.tsx
+    │   ├── PagamentosPage.tsx
+    │   ├── EstoquePage.tsx
+    │   ├── UsuariosPage.tsx
+    │   └── RelatoriosPage.tsx
+    │
+    ├── types/
+    │   ├── enums/
+    │   ├── dto/
+    │   └── index.ts
+    │
+    └── utils/
+        ├── format.ts
+        ├── date.ts
+        └── permissions.ts

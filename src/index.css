@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "./theme.css"; 
+
+/* Estilos globais */
+body {
+  @apply bg-neutral-100 text-neutral-900 antialiased;
+}
+
+input, textarea, select {
+  @apply border border-neutral-300 rounded px-3 py-2 outline-none;
+}
+
+button {
+  @apply outline-none;
+}
+
+/* Scroll bonito */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #e2e8f0; }
+::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #64748b; }

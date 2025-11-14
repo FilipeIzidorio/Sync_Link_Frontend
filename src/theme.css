@@ -1,0 +1,22 @@
+@theme {
+  --font-sans: Inter, system-ui;
+  --font-title: Sora, Poppins, Inter;
+
+  --color-primary: #2563EB;
+  --color-primary-light: #3B82F6;
+  --color-primary-dark: #1D4ED8;
+  --color-primary-soft: #93C5FD;
+
+  --color-secondary: #0C1222;
+  --color-secondary-light: #151C2E;
+  --color-secondary-dark: #1F2A44;
+
+  --color-neutral-100: #F8FAFC;
+  --color-neutral-200: #F1F5F9;
+  --color-neutral-300: #E2E8F0;
+  --color-neutral-500: #64748B;
+  --color-neutral-700: #334155;
+  --color-neutral-900: #0F172A;
+
+  --shadow-btn: 0 2px 6px rgba(0,0,0,0.18);
+}
